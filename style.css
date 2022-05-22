@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./background.png");
+    background-size:  cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Mary Poppins", sans-serif;
+    margin: 0;
+    color:black;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 8rem;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 2rem;
+
+}
+
+.countdown-element {
+    text-align: center;
+}
+
+.countdown-element span {
+    font-size: 1.2rem;
+}
